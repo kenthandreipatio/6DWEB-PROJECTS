@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0b0b0b;
+    color: #f0f0f0;
+}
+
+header {
+    background-color: #111111;
+    padding: 20px 40px;
+    border-bottom: 2px solid #e10600;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 8px;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.f1-stripes {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 160px;
+    height: 100vh;
+    background-color: #e10600;
+    pointer-events: none;
+    z-index: 5;
+}
+
+.page-logo {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: auto;
+    z-index: 10;
+}
+
+h1.title {
+    color: white;
+    margin-left: 40px;
+}
+
+.table-container {
+    padding: 20px 40px;
+}
+
+.stock-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #111111;
+    color: white;
+}
+
+.stock-table th {
+    background-color: #e10600;
+    color: white;
+    text-align: left;
+    padding: 12px 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.stock-table td {
+    padding: 12px 16px;
+}
+
+.stock-table tr:nth-child(even) {
+    background-color: #222222;
+}
+
+.stock-table tr:hover {
+    background-color: #330000;
+}
+
+footer {
+    background-color: #111111;
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: white;
+    border-top: 2px solid #e10600;
+    margin-top: 40px;
+}
+
+
